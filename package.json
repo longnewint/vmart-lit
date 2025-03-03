@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ui5/webcomponents": "^2.7.3",
+    "@vaadin/router": "^2.0.0",
     "lit": "^3.2.1"
   },
   "devDependencies": {
