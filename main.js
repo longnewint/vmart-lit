@@ -13,8 +13,11 @@ export class NavBar extends LitElement {
     justify-content: flex-end;
     align-items: center;
   }
-  nav li {
+  .nav-bar-1 li {
     height: 50px;
+  }
+  .nav-bar-2 li {
+    height: 40px;
   }
   nav a {
     height: 100%;
@@ -46,13 +49,15 @@ export class NavBar extends LitElement {
   render() {
     return html`
     <nav class='nav-bar'>
-      <div>
+      <div class='nav-bar-1'>
       <ul>
         <li class='left-cluster'><a href=''>vMart</a></li>
         <li><a href=''>Button1</a></li>
         <li><a href=''>Button2</a></li>
         <a href''><button>Sign In</button></a>
       </ul>
+      </div>
+      <div class='nav-bar-2'>
       <ul>
         <li><a href=''>T1</a></li>
         <li><a href=''>T2</a></li>
