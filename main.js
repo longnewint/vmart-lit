@@ -50,7 +50,6 @@ export class NavBar extends LitElement {
       <ul>
         <li class='left-cluster'><a href=''>vMart</a></li>
         <li><a href=''>Button1</a></li>
-        <a href=''><button>Sign In</button></a>
       </ul>
       </div>
     </nav>
