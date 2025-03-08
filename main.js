@@ -54,6 +54,15 @@ export class NavBar extends LitElement {
       </ul>
       </div>
     </nav>
+    <nav class='nav-bar-2'>
+      <div>
+      <ul>
+        <li class='left-cluster'><a href=''>vMart</a></li>
+        <li><a href=''>Button1</a></li>
+        <li><a href=''>Button2</a></li>
+      </ul>
+      </div>
+    </nav>
     `;
   }
 }
