@@ -1,7 +1,42 @@
-body {
-  height: 100vh;
-  background:  url(background.jpg) no-repeat center center/cover;
+* {
+}
 
-  justify-content: center;
+body {
+  min-height: 100vh;
+  background:  url(background.jpg) no-repeat center center/cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
+}
+nav li {
+  height: 50px;
+}
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+nav left-cluster {
+  margin-right: auto;
 }
