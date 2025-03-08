@@ -3,7 +3,7 @@ import "@ui5/webcomponents/dist/Button.js";
 
 export class NavBar extends LitElement {
   static styles = css`
-  .nav-bar-1 ul {
+  .nav-bar ul {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -45,17 +45,14 @@ export class NavBar extends LitElement {
 
   render() {
     return html`
-    <nav class='nav-bar-1'>
+    <nav class='nav-bar'>
       <div>
       <ul>
         <li class='left-cluster'><a href=''>vMart</a></li>
         <li><a href=''>Button1</a></li>
         <li><a href=''>Button2</a></li>
+        <a href''><button>Sign In</button></a>
       </ul>
-      </div>
-    </nav>
-    <nav class='nav-bar-2'>
-      <div>
       <ul>
         <li><a href=''>T1</a></li>
         <li><a href=''>T2</a></li>
