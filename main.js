@@ -18,6 +18,7 @@ export class NavBar extends LitElement {
   }
   .nav-bar-2 li {
     height: 40px;
+    float: right;
   }
   nav a {
     height: 100%;
