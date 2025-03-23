@@ -1,6 +1,7 @@
 import {html, css, LitElement} from 'lit';
 import "@ui5/webcomponents/dist/Button.js";
 
+// c1
 export class NavBar extends LitElement {
 
   static properties = {
